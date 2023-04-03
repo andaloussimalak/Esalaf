@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="445.0" prefWidth="646.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.esalaf.CreditsController">
+   <children>
+      <TableView layoutX="23.0" layoutY="21.0" prefHeight="302.0" prefWidth="486.0" fx:id="creditsTable">
+        <columns>
+            <TableColumn fx:id="clientNameColumn" prefWidth="100.0" text="Nom de client" />
+            <TableColumn fx:id="productNameColumn" prefWidth="100.0" text="Nom de produit" />
+            <TableColumn fx:id="creditAmountColumn" prefWidth="100.0" text="Credit Amount" />
+            <TableColumn fx:id="creditDateColumn" prefWidth="100.0" text="Date de crédit" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
